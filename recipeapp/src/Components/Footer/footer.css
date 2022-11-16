@@ -1,0 +1,107 @@
+.footer-wraper{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),url('/public/image/bgfooter2.jpg');
+    height: 82vh;
+    width: 100vw;
+    position: relative;
+    background-size:100%;
+    background-repeat: repeat;
+    font-family: 'barlow';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.news-letters{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 80px 100px 30px;
+}
+/* .news-letters>p{
+    color: #fff;
+} */
+.news-letter-heading{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    color: #de6503;
+}
+.footer-subscription-form{
+    margin-bottom: 28px;
+    display: flex;
+}
+.footer-message{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 32px;
+    letter-spacing: 0.7px;
+}
+.news-letter-ipBox{
+    font-size: 18px;
+    width: 300px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.news-letter-subscribe-btn{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 20px;
+    background-color: #de6503;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.footer-socialmedia-icons{
+    display: flex;
+    gap:20px;
+    font-size:26px;
+    color:#de6503;
+    padding-top: 10px;
+}
+.footer-socialmedia-icons > span{
+    cursor: pointer;
+}
+
+/* -------------Credit------------ */
+.credit{
+    margin: 80px 100px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+.credit>img{
+    height: 70px;
+    width: 280px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 7.5px;
+    margin-bottom: 30px;
+}
+.credit-message{
+    margin-top: 60px;
+}
+.credit-message>p{
+    color:#c66102;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.credit-message>p:first-child{
+    margin-bottom: 20px;
+}
+

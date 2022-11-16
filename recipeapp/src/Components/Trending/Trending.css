@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.recipes{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trending{
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+    background-color: #fef1e2;
+    padding-bottom: 50px;
+}

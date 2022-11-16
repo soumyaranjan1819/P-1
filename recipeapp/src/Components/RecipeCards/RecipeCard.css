@@ -1,0 +1,69 @@
+p{
+    margin: 0;
+}
+.rc-outer-wrapper{
+    list-style: none;
+    position: relative;
+    height: 345px; width: 220px;
+    padding-top:10px; 
+    margin: 10px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    cursor: pointer;
+}
+
+.rc-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 7.5px;
+    object-fit: cover;
+}
+.rc-dish-type{
+    text-transform:uppercase;
+    color: #d54215;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px 7.5px 0px;
+}
+.rc-title{
+    width: 170px;
+    padding:10px 7.5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.rc-outer{
+    height: 26px;
+    width: 26px;
+    bottom:26%;
+    right:5.5%;
+    border-radius: 15%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 10;
+}
+.rc-circle{
+    top: 3.7px;
+    right: 3.6px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    z-index: 9;
+    position: absolute;
+}
+.rc-green-box{
+    border: 2px solid green;
+}
+.rc-red-box{
+    border:2px solid red;
+}
+
+.rc-green{
+    background-color:green;
+}
+.rc-red{
+    background-color:red;
+}

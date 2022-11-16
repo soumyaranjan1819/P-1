@@ -1,0 +1,21 @@
+.web-nav-items{
+    padding: 10px;
+    margin-right: 130px;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.web-nav-item{
+    list-style: none;
+    font-weight: 600;
+    font-size: 22px;
+    color:#000;
+    text-decoration: none;
+}
+.web-nav-item:hover{
+    color:#d54215;
+}
+.active{
+    color: #d54215;
+}

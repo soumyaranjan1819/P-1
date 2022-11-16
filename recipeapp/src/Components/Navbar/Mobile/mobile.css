@@ -1,0 +1,27 @@
+.mob-nav{
+    display: flex;
+}
+.mob-icon{
+    color: #c63f7b;
+    z-index: 2;
+}
+.mob-nav-items{
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: auto;
+    width:100vw;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.mob-nav-item{
+    list-style: none;
+    font-weight: 600;
+    font-size: 26px;
+    padding-bottom: 15px;
+    background: linear-gradient(to right, #663177 , #c63f7b); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

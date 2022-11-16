@@ -1,0 +1,36 @@
+.logo img{
+    height: 60px;
+    width: 245px;
+    z-index: 3;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 50px;
+    position: relative;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #fef1e2;
+}
+.menu{
+    display: flex;
+}
+.mobile-menu{
+    display: none;
+}
+@media only screen and (max-width:768px){
+    .web-menu{
+        display:none;
+    }
+    .mobile-menu{
+        display:block;
+    }
+    .logo{
+        font-size: 36px;
+    }
+    .header{
+        padding: 22px;
+    }
+}

@@ -1,0 +1,20 @@
+.slidder{
+    width: 100vw;
+    padding: 0px 20px 10px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #fef1e2;
+    font-family: 'barlow';
+}
+img{
+    height: 80vh;
+    width: 100vw;
+    object-fit:cover ;
+}
+.slider-heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-size: 60px;
+}

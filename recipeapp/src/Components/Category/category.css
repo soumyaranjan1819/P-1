@@ -1,0 +1,73 @@
+.category-wrapper{
+    margin-bottom: 110px;
+    position: relative;
+}
+.category-details{
+    display:'flex';
+    justify-content:'center'; 
+    align-items:'center'; 
+    flex-direction:'column';
+}
+.category-text{
+    font-family: 'Barlow';
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0 0;
+}
+
+/* ---------------- RecipeTypes--------------- */
+.recipe-nav{
+    display: flex;
+    justify-content:space-evenly;
+}
+.vl{
+    border-left: 1px solid #b2b2b2;
+}
+.recipe-nav-text{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+}
+.recipe-nav-item-wrapper{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 0 25px 15px;
+
+}
+.recipe-nav-item{
+    height: 120px;
+    width:120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.recipe-diet{
+    background-color: #22c55e49;
+}
+.recipe-cusin{
+    background-color: #ea5a0c32;
+}
+
+
+/* ----------------View All Button-------------- */
+
+.view-all-recipes{
+    background-color: #d03b16;
+    border: none;
+    font-size: 18px;
+    font-family: 'Barlow';
+    padding: 5px 30px;
+    border-radius: 10px;
+    color:#fff;
+    font-family: 'Poppins';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+}

@@ -1,0 +1,30 @@
+.ap-carousel{
+    width: 100vw;
+    background-color: #fecb93;
+    padding: 6px 0 1px;
+    position: relative;
+}
+.ap-carousel-item img{
+    height: 210px;
+    width: 207px;
+    object-fit: cover;
+}
+
+.outer-border{
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.instagram-banner-text{
+    background: linear-gradient(to right, rgba(254, 217, 117, 0.7),rgb(250, 126, 30,0.8),rgb(214, 41, 118) ,rgb(150, 47, 191,0.8) ,rgb(79, 91, 213,0.7) );
+    display: flex;
+    gap: 6px;
+    font-weight: 600;
+    font-family: 'barlow';
+    font-size: 17px;
+    padding: 18px 25px;
+    border-radius: 5px;
+    margin: 7.5px;
+    cursor: pointer;
+}
+
